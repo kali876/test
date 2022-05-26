@@ -9,3 +9,5 @@ new_version="${app_old_version%.*}.$TIMESTAMP"
 
 sed -i '' "s/$app_old_version/$new_version/" ./pubspec.yaml
 sed -i '' "s/$aqa_old_version/$new_version/" ./aqa/package.json
+
+export APP_VERSION=new_version
