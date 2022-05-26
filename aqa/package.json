@@ -1,0 +1,9 @@
+{
+    "name": "rakali-aqa-mobile",
+    "version": "1.0.0",
+    "description": "Test automation solution for Rakali mobile app",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    }
+}
